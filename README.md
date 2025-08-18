@@ -12,7 +12,7 @@ Data :
 The dataset used for this project consists of chest X-ray images organized into pneumonia and normal cases. The images are preprocessed and resized to 150x150 pixels for optimal model performance.
 
 Model Architecture :
-The deep learning model consists of the following key components:
+The deep learning model consists of the following key components-
 
 Convolutional Layers: 5 Conv2D layers with progressive filter complexity (32→64→64→128→256)
 Batch Normalization: Applied after each convolutional layer for training stability
@@ -32,7 +32,7 @@ Comprehensive Evaluation: Confusion matrix, classification reports, and visualiz
 
 Performance Metrics :
 
-The model is evaluated using clinically relevant metrics:
+The model is evaluated using clinically relevant metrics-
 Sensitivity (Recall): Ability to correctly identify pneumonia cases
 Specificity: Ability to correctly identify normal cases
 Accuracy: Overall classification performance
@@ -59,21 +59,16 @@ seaborn
 scikit-learn
 pandas
 numpy
-Clinical Applications :
 
-This model is designed for medical imaging applications where:
+Clinical Applications :
+This model is designed for medical imaging applications where-
 High sensitivity minimizes missed pneumonia cases (false negatives)
 High specificity reduces unnecessary treatments (false positives)
 Automated screening can assist radiologists in busy clinical settings
 Early detection enables prompt treatment and better patient outcomes
 
 Contributions :
-Contributions to improve the project are welcome! Feel free to fork this repository, raise issues, or create pull requests. Areas for improvement include:
-
-Model architecture enhancements :
-Additional data preprocessing techniques
-Integration with medical imaging standards (DICOM)
-Deployment solutions for clinical environments
+Contributions to improve the project are welcome! Feel free to fork this repository, raise issues, or create pull requests.
 
 Disclaimer :
 This model is developed for research and educational purposes only. It should not be used as a substitute for professional medical diagnosis. Always consult qualified healthcare professionals for clinical decision-making.
